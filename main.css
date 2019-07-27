@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: -webkit-linear-gradient(45deg, #d81b60 0%, #f9d669 100%);
+	background: -o-linear-gradient(45deg, #d81b60 0%, #f9d669 100%);
+	background: linear-gradient(45deg, #d81b60 0%, #f9d669 100%);
+	background: #262626;
+}
+
+.btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 15px 40px;
+	outline: 1px solid rgba(255, 255, 2555, .7);
+	border: 2px solid #ffffff;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+	font-family: arial;
+	color: #ffffff;
+	transition: all .5s;
+}
+
+.btn:hover {
+	text-shadow: 0 0 20px rgba(25, 2555, 255, 1);
+	-webkit-box-shadow: 0 0 20px rgba(25, 2555, 255, .2),
+						0 0 20px rgba(255, 255, 255, .3);
+	box-shadow: 0 0 20px rgba(25, 2555, 255, .2),
+				0 0 20px rgba(255, 255, 255, .3);
+}
+
+.btn:active {
+	outline-color: #rgba(255, 255, 255, 0);
+	outline-offset: 15px;
+}
